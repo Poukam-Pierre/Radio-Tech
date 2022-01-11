@@ -1,0 +1,98 @@
+/*
+---------------------------------------------------------------
+---------------------------------------------------------------
+
+ Pensé et réalisé par l'ingénieur PIERRE IRENEE NGAMALEU POUKAM.
+ programStyle.css concerne la rubrique programme de notre page
+ html Demo-Radio.
+
+ --------------------------------------------------------------
+ --------------------------------------------------------------
+ */
+.container-program{
+  min-height: calc(100vh - 122.2px);
+}
+ .program-day{
+     text-align: center;
+ }
+ .program-day .btn{
+    border: 1px solid black;
+    height: 100px;
+    background-color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%), 0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+    width: 49%;
+    margin-top: 20px;
+ }
+
+ .program-day .success{
+    border-color: #e7e7e7;
+    color: green;
+ }
+
+ .program-day .success:hover {
+    background-color: #146e4d;
+    color: white;
+    transform: scale(1.1);
+  }
+  
+  /* Blue */
+  .program-day .info {
+    border-color: #e7e7e7;
+    color: dodgerblue;
+  }
+  
+  .program-day .info:hover {
+    background: #34678f;
+    color: white;
+    transform: scale(1.1);
+  }
+  
+  /* Orange */
+  .program-day .warning {
+    border-color: #e7e7e7;
+    color: orange;
+  }
+  
+  .program-day .warning:hover {
+    background: #d99c41;
+    color: white;
+    transform: scale(1.1);
+  }
+  
+  /* Red */
+  .program-day .danger {
+    border-color: #e7e7e7;
+    color: red;
+  }
+  
+  .program-day .danger:hover {
+    background: #ba3127;
+    color: white;
+    transform: scale(1.1);
+  }
+  
+  /* Gray */
+  .program-day .default {
+    border-color: #e7e7e7;
+    color: black;
+  }
+  
+  .program-day .default:hover {
+    background: #e7e7e7;
+    transform: scale(1.1);
+  }
+
+  @media (max-width: 500px){
+    .program-day .btngroup, .btn1, .btn2, .btn3, .btn4{
+      display: grid;
+    }
+
+    .btngroup .btn1, .btn2, .btn3, .btn4{
+      justify-items: center;
+    }
+    .btngroup div button{
+      width: -webkit-fill-available !important;
+    }
+  }

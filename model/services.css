@@ -1,0 +1,32 @@
+/*
+---------------------------------------------------------------
+---------------------------------------------------------------
+
+ Pensé et réalisé par l'ingénieur PIERRE IRENEE NGAMALEU POUKAM.
+ services.css concerne la rubrique services de notre page
+ html Demo-Radio.
+
+ --------------------------------------------------------------
+ --------------------------------------------------------------
+ */
+ 
+ #services .container{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+ }
+ .conceptionWeb{
+     display: grid;
+     margin: 20px 20px 20px 0;
+     padding: 15px;
+     border-radius: 25px;
+     box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%), 0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+ }
+ .conceptionWebTitle{
+     border-bottom: 1px solid #343a40;
+     margin: 0 0 20px 0;
+ }
+ @media (max-width: 600px){
+    #services .container{
+        display: block;
+    }
+ }

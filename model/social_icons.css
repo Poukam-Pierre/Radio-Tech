@@ -1,0 +1,75 @@
+/*
+---------------------------------------------------------------
+---------------------------------------------------------------
+
+ Pensé et réalisé par l'ingénieur PIERRE IRENEE NGAMALEU POUKAM.
+ social_icons.css concerne le tout premier navbar de notre page
+ html Demo-Radio.
+
+ --------------------------------------------------------------
+ --------------------------------------------------------------
+ */ 
+
+/*Positionnement des éléments dans le nav d'entête*/
+  /*Positionnement des icones sociaux*/
+
+  .icon{
+    position: relative;
+    margin: 0 10px;
+    font-size: 25px;
+    height: 30px;
+    width: 30px;
+    background-color: whitesmoke;
+    display: inline-block;
+    border-radius: 25px;
+    transition: 0.2s ease-in-out;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px #ffffff;
+}
+
+.icon:hover{
+    transform: scale(1.2);
+    border-radius: 5px 50px 5px;
+}
+.icon i{
+    position: absolute;
+    top: 11%;
+    left: 15%;
+    transition: tranlate(-50%, -50%);
+    color: blue;
+    transition: 0.2 ease-in-out;
+}
+.icon:hover i{
+    color: black;
+    animation: bounce 0.5s ease-in-out;
+}
+
+/*Positionnement de la barre de recherche*/
+
+.navbar .form{
+    display: flex;
+    height: 40px;
+    border-radius: 5px;
+    padding: 2px;
+    border: 1px solid rgba(155, 155, 155, 0.2);
+}
+
+.form-control{
+    background: none!important;
+    border: none!important;
+    color: white!important;
+}
+.form-control:focus{
+    box-shadow: none !important;
+}
+.form .search-btn{
+    padding: 0 10px;
+    background: whitesmoke;
+    border: none;
+    border-radius: 5px;    
+}
+.form .search-btn .fa-search{
+    color: blue;
+    font-size: 20px;
+
+}

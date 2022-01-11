@@ -1,0 +1,162 @@
+/*
+---------------------------------------------------------------
+---------------------------------------------------------------
+
+ Pensé et réalisé par l'ingénieur PIERRE IRENEE NGAMALEU POUKAM.
+ contactStyle.css concerne la rubrique contact de notre page
+ html Demo-Radio.
+
+ --------------------------------------------------------------
+ --------------------------------------------------------------
+ */ 
+
+.iframe{
+    text-align: center;
+    height: 550px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.icon-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.icon-info .face-icon, .whats-icon, .phone-icon{
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%), 0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+    border-radius: 25px;
+}
+.icon-info .face-icon img{
+    height: 100px;
+    padding-top: 5px;
+}
+.icon-info .whats-icon img{
+    height: 100px;
+    padding-top: 5px;
+}
+.icon-info .phone-icon img{
+    height: 100px;
+    padding-top: 5px;
+}
+.label-content{
+    text-align: center;
+    padding-bottom: 5px;
+}
+.label-content .bloc-label{
+    padding: 3px;
+}
+.label-content .bloc-label h3{
+    border-bottom: 2px solid #343a40;
+}
+.contact-infos{
+    display: grid;
+    grid-auto-flow: column;
+    padding: 0 !important;
+}
+textarea{
+    height: 92px !important;
+}
+.right-colunm{
+    text-align: end !important;
+}
+.left-colunm{
+    padding-right: 10px;
+}
+
+.form-controls{
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+@media (max-width: 768px) {
+    .icon-info .face-icon, .whats-icon, .phone-icon{
+        width: 150px;
+        font-size: small;
+        font-weight: 700;
+        margin-left: 27px;
+    }
+    .contact-infos{
+        display: block;
+    }
+    .right-colunm{
+        text-align: center !important;
+    }
+    .icon-info{
+        padding: 30px 0 30px 0;
+    }
+}
+ @media (max-width: 600px) {
+     .iframe{
+        height: 475px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .icon-info{
+        display: block;
+    }
+
+    .icon-info .face-icon, .whats-icon, .phone-icon{
+        width: 305px;
+    } 
+
+    .icon-info .face-icon, .whats-icon, .phone-icon{
+        font-size: 18px;
+        display: inline-flex;
+    }
+    .icon-info .face-icon img{
+        height: 60px;
+        margin: 6px;
+        border-radius: 35%;
+    }
+    .icon-info .face-icon div{
+        padding-top: 18px;
+        margin: 10px;
+        padding-right: 10px;
+        padding-left: 24px;    
+    }
+    
+    .icon-info .whats-icon img{
+        height: 72px;
+        padding-top: 5px;
+        border-radius: 50%;
+    }
+    .icon-info .whats-icon div{
+        padding-top: 20px;
+        padding-right: 23px;
+        padding-left: 37px;
+    }   
+    
+    .icon-info .phone-icon img{
+        height: 70px;
+        padding-top: 5px;
+        padding-left: 6px;
+        border-radius: 38%;
+    }
+    
+    .icon-info .phone-icon div{
+        text-align: end;
+        margin: 10px;
+        padding-left: 22px;    
+    }
+    
+}

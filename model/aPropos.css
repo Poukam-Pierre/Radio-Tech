@@ -1,0 +1,76 @@
+/*
+---------------------------------------------------------------
+---------------------------------------------------------------
+
+ Pensé et réalisé par l'ingénieur PIERRE IRENEE NGAMALEU POUKAM.
+ aPropos.css concerne la rubrique à propos de notre page
+ html Demo-Radio.
+
+ --------------------------------------------------------------
+ --------------------------------------------------------------
+ */
+
+.about, .teams, .performance{
+     padding: 20px;
+ }
+
+.aboutTitle, .teamsTitle, .performanceTitle{
+    border-bottom: 1px solid #343a40;
+    margin: 0 0 20px 0;
+ }
+
+.teamImages{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+ }
+
+.personalImage{
+    position: relative;
+    width: 50%;
+}
+
+.personalImage:hover .image {
+    opacity: 0.3;
+}
+
+.personalImage:hover .middle {
+    opacity: 1;
+}
+
+.teamImages .image {
+opacity: 1;
+display: block;
+width: 100%;
+height: auto;
+transition: .5s ease;
+backface-visibility: hidden;
+}
+
+.middle {
+transition: .5s ease;
+opacity: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-align: center;
+}
+
+.textName {
+background-color: #04AA6D;
+color: white;
+font-size: 16px;
+padding: 16px 32px;
+}
+@media (max-width: 550px){
+    .teamImages{
+        display: block;
+    }
+    .personalImage{
+        width: 100%;
+    }
+    .teamImages .columnImage1{
+        padding: 15px;
+    }
+}

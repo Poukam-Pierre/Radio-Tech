@@ -1,0 +1,38 @@
+/*
+---------------------------------------------------------------
+---------------------------------------------------------------
+
+ Pensé et réalisé par l'ingénieur PIERRE IRENEE NGAMALEU POUKAM.
+ availablePage.css concerne la rubrique contact de notre page
+ html Demo-Radio.
+
+ --------------------------------------------------------------
+ --------------------------------------------------------------
+ */
+ 
+ /* .container-programs{
+     min-height: calc(100vh - 122.2px)
+    height: 56%;
+    width: 100%;
+    background: #343a40;
+    color: beige;
+    border: 1px solid;
+    margin-top: 100px;
+    padding: 5%;
+    display: grid;
+    text-align: center;
+    align-content: center;
+    font-size: 1.5em;
+} */
+.container-programs .available-page{
+    background: #343a40;
+    color: beige;
+    display: grid;
+    text-align: center;
+    border: 1px solid;
+    padding: 14%;
+    font-size: 1.5em;
+    /* margin-top: 100px; */
+    box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%), 0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+    border-radius: 25px;
+ }

@@ -1,0 +1,7 @@
+#root>div{
+    display:none;
+}
+
+#root>div:first-of-type{
+    display:block;
+}

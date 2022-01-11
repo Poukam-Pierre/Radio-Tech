@@ -1,0 +1,109 @@
+/*
+---------------------------------------------------------------
+---------------------------------------------------------------
+
+ Pensé et réalisé par l'ingénieur PIERRE IRENEE NGAMALEU POUKAM.
+ podcastPage.css concerne la rubrique contact de notre page
+ html Demo-Radio.
+
+ --------------------------------------------------------------
+ --------------------------------------------------------------
+*/ 
+
+.podcast-title{
+    border-bottom: 1px solid #343a40;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.podcast-title h3{
+    font-size: 35px !important;
+    font-weight: bold;
+}
+
+.contentPodcastPage{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.podcast-content{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.podcast-content .article{
+    position: relative;
+    width: 350px;
+    height: fit-content;
+    background: #767c83;
+    box-shadow: 0 50px 80px rgb(0 0 0 / 25%);
+}
+
+.podcast-content .article .imgBx{
+    position: relative;
+    width: 100%;
+    height: 16vh;
+}
+
+.podcast-content .article .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.podcast-content .article audio{
+    outline: none;
+}
+
+.article-infos{
+    padding-left: 15px;
+}
+
+.annonce-title{
+    text-align: center;
+    margin: 5px 0 10px 0;
+    background: #343a40;
+    border-radius: 13px;
+    color: beige;
+}
+
+@media (max-width: 1200px){
+    .podcast-content .overlay span{
+        font-size: 125%;
+    }
+}
+
+@media (max-width: 992px){
+    .contentPodcastPage .Bande-annonces{
+        display: none;
+    }
+    .contentPodcastPage{
+        display: block;
+    }
+}
+
+@media (max-width: 768px){
+    .article-infos{
+        font-size: 12px;
+    }    
+}
+
+@media (max-width: 510px){
+    .article-overview{
+        display: none;
+    }
+    .article-infos{
+        display: grid;
+        align-items: center;
+    }
+}
+
+@media (max-width: 450px){
+    .article-title h3{
+        font-size: 1.5rem !important;
+        font-weight: bold !important;
+    }
+}

@@ -1,0 +1,33 @@
+/*
+---------------------------------------------------------------
+---------------------------------------------------------------
+
+ Pensé et réalisé par l'ingénieur PIERRE IRENEE NGAMALEU POUKAM.
+ programStyle.css concerne la rubrique programme de notre page
+ html Demo-Radio.
+
+ --------------------------------------------------------------
+ --------------------------------------------------------------
+ */
+
+.modal-body{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+    padding-right: 0 !important;
+    box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%), 0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+    border-radius: 25px;
+}
+.emission-info{
+    padding: 7px;
+    text-align: left;
+} 
+ 
+.hour-info{
+    padding: 20px;
+    border-top-right-radius: 26px;
+    border-bottom-right-radius: 26px;
+}
+

@@ -1,0 +1,70 @@
+/*
+---------------------------------------------------------------
+---------------------------------------------------------------
+
+ Pensé et réalisé par l'ingénieur PIERRE IRENEE NGAMALEU POUKAM.
+ accueilStyle.css concerne la rubrique Demo-Radio.
+
+ --------------------------------------------------------------
+ --------------------------------------------------------------
+ */
+
+.image-slide{
+    padding-bottom: 15px;   
+}
+
+.about-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 25px;
+    min-height: calc(100vh - 205.2px);
+    padding: 15px;
+    text-align: center;
+}
+/* .about-container .scrollElement{
+    position: relative;
+}
+.scroll{
+    position: absolute;
+    top: 122px;
+} */
+
+.about-container .title{
+    margin: 10px 0 10px 0;
+    background: #343a40;
+    border-radius: 13px;
+    color: beige;
+}
+
+.about-container .title h3{
+    padding: 7px;
+    font-size: inherit !important;
+}
+
+.colunm1 .faceRadio iframe{
+    max-width: 100%;
+}
+
+.colunm2 .actuality, .colunm3 .ads{
+    margin-bottom: 15px;
+}
+
+.colunm2 .content span, .colunm3 .ads span{
+    font-weight: bold;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.colunm2 .actuality .content span a{
+    color: #343a40;
+}
+
+.colunm3 .ads span a{
+    color: #343a40;
+}
+
+@media (max-width: 700px){
+    .about-container{
+        display: block;
+    }
+}

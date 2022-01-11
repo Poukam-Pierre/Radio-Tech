@@ -1,0 +1,153 @@
+/*
+---------------------------------------------------------------
+---------------------------------------------------------------
+
+ Pensé et réalisé par l'ingénieur PIERRE IRENEE NGAMALEU POUKAM.
+ reader_navbar.css concerne le second navbar de notre page
+ html Demo-Radio.
+
+ --------------------------------------------------------------
+ --------------------------------------------------------------
+ */ 
+
+
+.bg-dark{
+    justify-content: space-around!important;
+}
+.main-nav-holder{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    width: 100%;
+}
+.navbar-dark .control-flux{
+    display: inline-flex;
+}
+
+.navbar span button{
+    border: none;
+    height: 30px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    outline: none;
+    transition: 0.5s;
+    background: none;
+    
+}
+
+.navbar span button i{
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+.navbar .control-info .cover{
+    padding-left: 20px;
+}
+.navbar .control-info .media-cover{
+    height: 30px;
+    width: 30px;
+    overflow: hidden;
+}
+.navbar .control-info .control-track{
+    text-transform: capitalize;
+    color: whitesmoke;
+    font-size: 17px;
+    padding: 0 10px;
+    padding-right: 150px;
+}
+.navbar .control-info .control-action{
+    color: whitesmoke;
+    font-size: 15px;
+    padding-right: 50px;
+}
+
+.navbar .control-info .control-action #partage{
+    padding: 0 20px;
+}
+.navbar .control-info .control-action #partage:hover{
+    color: #007bff;
+}
+
+.navbar .control-info .control-action #vote-player:hover{
+    color: #007bff;
+}
+.navbar .volume{
+    display: flex;
+    padding-left: 90px!important;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    padding: 0px;
+}
+.navbar .volume #volume-show{
+    font-size: 15px;
+}
+.navbar .volume i{
+    cursor: pointer;
+    font-size: 20px;
+    padding: 0px 20px;
+
+}
+
+.navbar .volume i:hover{
+    color: #007bff;
+}
+
+input[type="range"]{
+    -webkit-appearance: none;
+    width: 50%;
+    outline: none;
+    height: 2px;
+}
+
+input[type="range"]::-webkit-slider-thumb{
+    cursor: pointer;
+}
+
+@media (max-width: 955px) {
+    .navbar .volume{
+        display: none;
+    }
+    
+}
+@media (max-width: 585px) {
+    .navbar .control-info .control-action{
+        padding-right: 0;
+    }
+}
+@media (max-width: 535px) {
+    .navbar .control-info .control-track{
+        padding-right: 0px;
+    }
+
+}
+@media (max-width: 390px) {
+    .navbar span button i{
+        font-size: 21px;
+    }
+    .navbar span button,
+    .navbar .control-info .cover img,
+    .navbar .control-info .control-track #title,
+    .navbar .control-info .control-action .fa-heart-o,
+    .navbar .control-info .control-action .fa-share{
+        font-size: 16px;
+    }
+    .navbar .control-info .control-track{
+        padding-right: 0px;
+    }
+    .navbar .control-info .cover{
+        padding-left: 0;
+    }
+    .navbar .control-info .control-action #partage{
+        padding: 0 6px;
+    }
+
+}
+@media (max-width: 280px) {
+    .navbar .control-info .control-track{
+        padding-right: 5px;
+    }
+}

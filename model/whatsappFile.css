@@ -1,0 +1,67 @@
+/*
+---------------------------------------------------------------
+---------------------------------------------------------------
+
+ Pensé et réalisé par l'ingénieur PIERRE IRENEE NGAMALEU POUKAM.
+ whatsappFile.css concerne toute les pqges de notre
+ html Demo-Radio.
+
+ --------------------------------------------------------------
+ --------------------------------------------------------------
+*/
+
+.whatsapp {
+    position: fixed;
+    right: 0;
+    bottom: 5%;
+    left: 80%;
+    z-index: 20;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    border: 3px solid #008000;
+    border-radius: 50%;
+    transition-duration: 0.5s;
+    box-shadow: rgb(0 0 0 / 40%) 0px 3px 12px;
+    animation-name: whatsapp;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+
+  .whatsapp .fa-whatsapp {
+    padding-top: 2px;
+    font-size: 40px;
+    text-decoration: none;
+    color: #008000;
+    animation-name: fa-whatsapp;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+  }
+
+  .whatsapp:hover {
+    background-color: #008000;
+  }
+
+  .whatsapp:hover .fa-whatsapp {
+    color: #fff;
+  }
+  
+  @keyframes whatsapp{
+    from{
+      background-color: white;
+    }
+    to{
+      background-color: #008000;
+    }
+  }
+  @keyframes fa-whatsapp{
+    from{
+      color: #008000;
+    }
+    to{
+      color: white;
+    }
+  }
+  

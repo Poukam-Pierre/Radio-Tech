@@ -1,0 +1,29 @@
+/*
+---------------------------------------------------------------
+---------------------------------------------------------------
+
+ Pensé et réalisé par l'ingénieur PIERRE IRENEE NGAMALEU POUKAM.
+ footer.css concerne la rubrique contact de notre page
+ html Demo-Radio.
+
+ --------------------------------------------------------------
+ --------------------------------------------------------------
+ */ 
+ 
+ .footer{
+     display: grid;
+     grid-auto-flow: column;
+     height: 7vh;
+     padding: 14px;
+     margin-top: 5px;
+     background: #343a40;
+     align-content: center;
+ }
+
+ .footer .copyright, .devTeam{
+     color: beige;
+ }
+
+ .footer .devTeam{
+     text-align: right;
+ }

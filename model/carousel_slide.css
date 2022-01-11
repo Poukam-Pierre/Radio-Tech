@@ -1,0 +1,25 @@
+/* --------------------------------------------------------------
+---------------------------------------------------------------
+
+ Pensé et réalisé par l'ingénieur PIERRE IRENEE NGAMALEU POUKAM.
+ accueilStyle.css concerne la rubrique contact de notre page
+ html Demo-Radio.
+
+ --------------------------------------------------------------
+ --------------------------------------------------------------
+ */
+
+.carousel-item{
+    height: auto;
+}
+
+.carousel-item img {
+    position: relative;
+    left: 0;
+    width: 100%;
+}
+.carousel-caption{
+    z-index: 0 !important;
+}
+
+
